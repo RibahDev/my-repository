@@ -1,9 +1,8 @@
-.clickList{
-    position: absolute;
-    background-color: #fff;
+.clickList {
     box-shadow: 0 4px 6px black;
-    border-radius: 8px;
     z-index: 10;
-    white-space: pre-line;
-    overflow: hidden;
+    max-width: 90vw;  /* Limita a largura do componente para 90% da tela */
+    max-height: 80vh;  /* Limita a altura do componente para 80% da tela */
+    overflow: auto;  /* Permite rolagem quando necessário */
+    transition: 1s ease;
 }

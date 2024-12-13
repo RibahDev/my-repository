@@ -13,7 +13,7 @@ export default function List({ language }) {
                 text={code}
                 language={language}
                 showLineNumbers={true}
-                wrapLongLines
+                wrapLongLines={true}
                 highlight="1,2,3,4,5,6,7,8,9,10"
                 theme={dracula}
             />
