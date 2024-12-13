@@ -1,0 +1,26 @@
+{
+    "html": {
+        "code": "<h1>Hello World!</h1>\n<p>Qubrando a maldição</p>"
+    },
+    "css": {
+        "code": "body {background-color: #f0f0f0;\nfont-family: Arial, sans-serif;}"
+    },
+    "js": {
+        "code": "const nome = 'João Vitor Ribeiro';\nconsole.log(nome);"
+    },
+    "csharp": {
+        "code": "using System;\nclass Program {static void Main() {Console.WriteLine(\"Hello, World!\");}}"
+    },
+    "angular": {
+        "code": "import { Component } from '@angular/core';\n@Component({selector: 'app-root',\ntemplate: '<h1>Hello Angular</h1>',\nstyleUrls: ['./app.component.css']})\nexport class AppComponent {}"
+    },
+    "react": {
+        "code": "import React from 'react';\nconst App = () => {return <h1>Hello React!</h1>;\n};\nexport default App;"
+    },
+    "nextjs": {
+        "code": "import React from 'react';\nconst Home = () => {return <h1>Welcome to Next.js!</h1>;\n};\nexport default Home;"
+    },
+    "sql": {
+        "code": "SELECT * FROM users;\nINSERT INTO users (name, age) VALUES ('John Doe', 30);"
+    }
+}

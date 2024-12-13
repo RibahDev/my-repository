@@ -1,7 +1,5 @@
 .container {
     width: 100%;
-    background-color: #000000;
-
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -21,15 +19,16 @@
     border-radius: 50%;
     height:250px;
     width: 250px;
-    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.256);
-    transition: 0.6s;
+    transition: 0.5s;
 }
 
 .squirt:hover{
+    border: 5px solid #343434;
     transform: scale(105%);
     translate: -10px -10px;
-    transition: 0.8s;
-    border: 5px solid #ffffff;
+    transition: 0.6s all;
+    box-shadow: 5px 5px 8px rgba(71, 71, 71, 0.256);
+
 }
 
 .git{
@@ -47,11 +46,15 @@
     transform: scale(105%);
     translate: -4px -4px;
     transition: 0.8s;
+    filter: 
+        drop-shadow(5px 5px 5px rgba(255, 255, 255, 0.377));
 }
 .linkd:hover{
     transform: scale(105%);
     translate: -4px -4px;
     transition: 0.8s;
+    filter: 
+        drop-shadow(5px 5px 5px rgba(255, 255, 255, 0.377));
 }
 
 .social{
