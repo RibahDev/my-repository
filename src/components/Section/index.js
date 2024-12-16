@@ -206,6 +206,10 @@ export default function Section() {
                 </div>
                 <hr />
             </div>
+            <h2>Minha Área</h2>
+            <div className={styles.minhaArea} >
+                
+            </div>
         </div>
     );
 }

@@ -160,3 +160,16 @@
   height: 80%;
   border-radius: 10px;
 }
+
+.minhaArea{
+  display: flex;
+  justify-content: space-around;
+  background-color: #252525;
+  align-items: center;
+  color: #fff;
+  border-radius: 10px;
+  width: 80%;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 25px;
+}
