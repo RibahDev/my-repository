@@ -19,8 +19,8 @@ export default function Main() {
                 <Image className={styles.squirt} src={squirtle} alt='Imagem de perfil' ></Image>
 
                 <div className={styles.social}>
-                    <Link href='#' ><Image className={styles.git} src={github} alt='github' ></Image></Link>
-                    <Link href='#'><Image className={styles.linkd} src={linkedin} alt='linkedin'></Image></Link>
+                    <Link href='https://github.com/RibahDev'  target='_blank'><Image className={styles.git} src={github} alt='github'></Image></Link>
+                    <Link href='https://www.linkedin.com/feed/update/urn:li:activity:7270094151617052672/?commentUrn=urn%3Ali%3Acomment%3A(ugcPost%3A7270094150908194817%2C7274358015581974528)&dashCommentUrn=urn%3Ali%3Afsd_comment%3A(7274358015581974528%2Curn%3Ali%3AugcPost%3A7270094150908194817)' target='_blank'><Image className={styles.linkd} src={linkedin} alt='linkedin'></Image></Link>
                 </div>
             </div>
         </div>

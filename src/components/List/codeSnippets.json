@@ -18,9 +18,9 @@
         "code": "import React from 'react';\nconst App = () => {return <h1>Hello React!</h1>;\n};\nexport default App;"
     },
     "nextjs": {
-        "code": "import React from 'react';\nconst Home = () => {return <h1>Welcome to Next.js!</h1>;\n};\nexport default Home;"
+        "code": "import React from 'react';\nexport default function Name(){\nreturn(\n <h1>Olá, João Ribeiro</h1>\n)};"
     },
     "sql": {
-        "code": "Select * From users;\nInsert Into users(name,  age)\n Values ('John Doe', 30);"
+        "code": "Select * From users;\nInsert Into users(name,  age)\n Values ('João Ribeiro', 24);"
     }
 }

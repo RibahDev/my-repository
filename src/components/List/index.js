@@ -1,11 +1,11 @@
 import styles from './List.module.css'
 import React from 'react'
 import { CodeBlock, dracula } from 'react-code-blocks'
-
-import codeSnippets from './codeSnippets.json' // Importe o JSON com os códigos
+import codeSnippets from './codeSnippets.json' 
 
 export default function List({ language }) {
-    const code = codeSnippets[language]?.code || ''; // Pega o código para a linguagem selecionada
+    // Pega o código para a linguagem selecionada
+    const code = codeSnippets[language]?.code || ''; 
 
     return (
         <div className={styles.clickList}>
