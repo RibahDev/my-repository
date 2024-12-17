@@ -8,7 +8,7 @@
 }
 
 
-.card{
+.blocoTexto{
     max-width: 50%;
     color: #ffffff;
     display: flex;
@@ -18,10 +18,11 @@
 }
 
 
-.imagens{
-    padding: 15px;
-    background-color: #232323;
-    border-radius: 10px;
+.card{
+    padding: 30px;
+    background-color: #ffffff;
+    border: 10px solid #232323;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,6 +35,8 @@
     height:250px;
     width: 250px;
     transition: 0.5s;
+    box-shadow: 3px 3px 5px #00000059;
+
 }
 
 .squirt:hover{
@@ -41,19 +44,33 @@
     transform: scale(105%);
     translate: 0 -10px;
     transition: 0.6s all;
-    filter: 
-    drop-shadow(5px 5px 5px rgba(255, 255, 255, 0.169));
+    box-shadow: 5px 5px 8px #00000059;
+
 
 }
+
+.social{
+    background-color: #ffffff;
+    border: 5px solid #232323;
+    box-shadow: 3px 3px 5px #00000059;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
 
 .git{
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     transition: 0.5s;
+    
 }
 .linkd{
-    width: 35px;
-    height: 35px;
+    width: 48px;
+    height: 48px;
+    margin: 20px;
     transition: 0.5s;
 }
 
@@ -62,25 +79,14 @@
     translate: -4px -4px;
     transition: 0.8s;
     filter: 
-        drop-shadow(5px 5px 5px rgba(255, 255, 255, 0.377));
+        drop-shadow(3px 3px 5px #00000059);
 }
 .linkd:hover{
     transform: scale(105%);
     translate: -4px -4px;
     transition: 0.8s;
     filter: 
-        drop-shadow(5px 5px 5px rgba(255, 255, 255, 0.377));
-}
-
-.social{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+        drop-shadow(5px 5px 8px #00000059);
 }
 
 
-.social{
-    display: flex;
-    margin: 10px 0;
-
-}
